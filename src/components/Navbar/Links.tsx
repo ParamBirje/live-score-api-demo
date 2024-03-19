@@ -21,7 +21,7 @@ export default function Links() {
   ];
 
   return (
-    <ul className="grow flex justify-center items-center gap-5">
+    <ul className="grow flex justify-center items-center gap-7">
       {links.map((link, index) => {
         return (
           <li key={index}>

@@ -1,4 +1,4 @@
-import React from "react";
+import logo from "../../assets/logo.png";
 import Links from "./Links";
 
 export default function Navbar() {
@@ -7,18 +7,19 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* LOGO */}
 
-        <div className="min-w-[20%]">
+        <div className="min-w-[20%] flex items-center justify-start gap-3">
+          <img src={logo} alt="logo" />
           <button>
             <h3 className="font-regular text-2xl">LiveScoreAPI</h3>
           </button>
         </div>
 
         {/* Side Nav */}
-        <div className="min-w-[20%] flex justify-end gap-5 items-center">
+        <div className="min-w-[20%] flex justify-end gap-7 items-center">
           {/* Middle Nav */}
           <Links />
 
-          <button className="flex items-center gap-5 rounded-md bg-black text-white px-4 py-2">
+          <button className="flex items-center gap-7 rounded-md bg-black text-white px-4 py-2">
             <p className="font-medium">Sign In</p>
           </button>
         </div>
