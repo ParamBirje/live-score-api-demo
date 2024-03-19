@@ -10,17 +10,17 @@ export default function Hero() {
         <h2 className="text-5xl font-extrabold">
           Build your own football app in minutes!
         </h2>
-        <p>
+        <p className="tracking-wide">
           APIs for realtime football data like scores, teams, events for World
           Cups, UEFA, COPA America, Asian Cup, and many more.{" "}
         </p>
 
         <div className="flex flex-col gap-10 my-3">
           <div className="flex items-center gap-5">
-            <button className=" px-4 py-2 bg-gradient-to-r from-[#6D0EB1] to-[#EA2693] text-white rounded-md hover:brightness-95">
+            <button className=" font-medium px-5 py-2 bg-gradient-to-r from-[#6D0EB1] to-[#EA2693] text-white rounded-md hover:brightness-95">
               Get Started For Free
             </button>
-            <button className=" px-4 py-2 border border-black text-gray-700 rounded-md hover:bg-black hover:text-white duration-150">
+            <button className=" px-4 py-2 border border-black font-medium text-gray-800 rounded-md hover:bg-black hover:text-white duration-150">
               See LiveScoreAPI in action
             </button>
           </div>
