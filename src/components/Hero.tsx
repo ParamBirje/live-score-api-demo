@@ -24,11 +24,13 @@ export default function Hero() {
               See LiveScoreAPI in action
             </button>
           </div>
-          <div className="border border-gray-700 px-4 py-5 rounded-md">
+          <div className="border border-gray-500 px-5 py-6 rounded-md flex flex-col gap-2">
             <h3 className="text-2xl font-bold">
               2134+ <span className=" font-light">football apps</span>
             </h3>
-            <p>Increased their average session by 90 minutes!</p>
+            <p className="tracking-wide">
+              Increased their average session by 90 minutes!
+            </p>
           </div>
         </div>
       </div>
