@@ -12,7 +12,8 @@ export default function Hero() {
         </h2>
         <p className="tracking-wide">
           APIs for realtime football data like scores, teams, events for World
-          Cups, UEFA, COPA America, Asian Cup, and many more.{" "}
+          Cups, UEFA, COPA America, Asian Cup, many more in your favorite
+          language.{" "}
         </p>
 
         <div className="flex flex-col gap-10 my-3">
