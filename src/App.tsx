@@ -1,3 +1,4 @@
+import Companies from "./components/Companies";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Stats from "./components/Stats";
@@ -16,6 +17,7 @@ function App() {
         <Stats />
 
         {/* Companies */}
+        <Companies />
       </main>
     </>
   );
