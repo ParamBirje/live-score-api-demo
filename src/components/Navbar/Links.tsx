@@ -8,15 +8,15 @@ export default function Links() {
     },
     {
       name: "API ⌄",
-      url: "/jobs",
+      url: "/",
     },
     {
       name: "Docs",
-      url: "/blog",
+      url: "/",
     },
     {
       name: "Pricing",
-      url: "/blog",
+      url: "/",
     },
   ];
 
