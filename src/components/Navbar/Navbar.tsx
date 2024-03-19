@@ -19,7 +19,7 @@ export default function Navbar() {
           {/* Middle Nav */}
           <Links />
 
-          <button className="flex items-center gap-7 rounded-md bg-black text-white px-4 py-2">
+          <button className="flex items-center gap-7 rounded-md bg-black text-white px-4 py-2 hover:bg-gray-900">
             <p className="font-medium">Sign In</p>
           </button>
         </div>
