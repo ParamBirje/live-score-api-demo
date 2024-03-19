@@ -26,7 +26,7 @@ export default function Hero() {
           </div>
           <div className="border border-gray-700 px-4 py-5 rounded-md">
             <h3 className="text-2xl font-bold">
-              2134+ <span className=" font-normal">football apps</span>
+              2134+ <span className=" font-light">football apps</span>
             </h3>
             <p>Increased their average session by 90 minutes!</p>
           </div>
